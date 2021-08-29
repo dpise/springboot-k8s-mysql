@@ -1,5 +1,5 @@
 # springboot-k8s-mysql
-Download project from github
+Download project from github https://github.com/dpise/springboot-k8s-mysql.git
 
 1. First do maven build to create jar/war file in target folder
 
@@ -52,5 +52,4 @@ docker tag dpise17/springbootmysqldemo:latest dpise17/springbootmysqldemo:v1
 	e.g. minikube service springboot-k8s-mysql -n springmysql
 	
 	it will show the ip address. run the command http://192.168.99.104:30163/users
-		
- 
+	
